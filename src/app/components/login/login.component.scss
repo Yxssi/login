@@ -1,5 +1,35 @@
-.button {
-  display: flex;
-  justify-content: center;
+@media (min-width: 1024px)
+{
+button {
+  margin-top: 10%;
+   margin-left: 11vw;
+  background-color: #00abcb; 
+  border-color: #00abcb;
+   font-size: 18px
+    
 }
+
+h3 {
+ display: flex;
+ justify-content: center
+}
+.input-group {
+    margin-top: 10%
+}
+
+
+.jumbotron {
+
+width: 60%;
+margin-top: 10%;
+
+margin-left: 20%
+
+}
+
+.container {
+  
+}
+}
+
 
