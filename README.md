@@ -33,13 +33,7 @@ The `npm start` command builds (compiles TypeScript and copies assets) the appli
 
 Shut it down manually with `Ctrl-C`.
 
-And repeat
 
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Serve
 
@@ -62,7 +56,7 @@ For the deployment, i used vercel.com
 
 ## Authors
 
-* **Yessi Munguengui** - *Full-stack Developper junior* - [Yxssi](https://github.com/Yxssi
+* **Yessi Munguengui** - *Full-stack Developper junior* - [Yxssi](https://github.com/Yxssi)
 
 
 
