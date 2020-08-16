@@ -1,27 +1,73 @@
-# Login
+# Login Page 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
+Projet réalisé dans le cadre d'une évaluation en Angular.
 
-## Development server
+### Prerequisites
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Angular CLI - 10 
+'npm install -g @angular/cli'
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Get started
 
-## Build
+### Clone the repo
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+```shell
+git clone https://github.com/yxssi/login
+cd login
+```
 
-## Running unit tests
+### Installing
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Install npm packages
 
-## Running end-to-end tests
+Install the `npm` packages described in the `package.json` and verify that it works:
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```shell
+npm install
+npm start
+```
 
-## Further help
+The `npm start` command builds (compiles TypeScript and copies assets) the application into `dist/`, watches for changes to the source files, and runs `lite-server` on port `3000`.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Shut it down manually with `Ctrl-C`.
+
+And repeat
+
+```
+until finished
+```
+
+End with an example of getting some data out of the system or using it for a little demo
+
+## Serve
+
+Use the command 'ng serve' and go to localhost:4200
+
+
+
+
+## Deployment
+
+For the deployment, i used vercel.com
+
+## Built With
+
+* [Angular](https://angular.io/docs) - The web framework used
+* [Nodejs](https://nodejs.org/fr/docs/) - Dependency Management
+* [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - The open-source CSS framework
+
+
+
+## Authors
+
+* **Yessi Munguengui** - *Full-stack Developper junior* - [Yxssi](https://github.com/Yxssi
+
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+
