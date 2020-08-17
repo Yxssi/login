@@ -1,5 +1,4 @@
 .container-footer {
-  margin-top: 100px;
   width: 100%;
   height: 100%;
   justify-content: center;
@@ -7,8 +6,6 @@
   flex-direction: row;
   align-content: space-between;
 }
-
-
 
 footer {
   background-color: #0a2232;
@@ -19,11 +16,20 @@ footer {
 
   width: 100%;
 
-  padding-top: 50px;
+  padding-top: 2vw;
 
-  height: 15vw;
+  height: 5vw;
 
   display: flex;
 
   justify-content: space-between;
+}
+
+@media only screen and (max-device-width: 480px) {
+  footer {
+    font-size: 1.45rem;
+    padding-top: 8vw;
+
+    height: 25vw;
+  }
 }
